@@ -1,0 +1,95 @@
+.header {
+    background: #28374d;
+}
+.header-box {
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__list {
+    display: flex;
+    gap: 40px;
+}
+.menu__list li{
+    position: relative;
+}
+.menu__list li a{
+    color: #fff;
+}
+.menu__list li a:hover{
+    color: #ff7d00;
+}
+.menu__list li:nth-child(1)::after,
+.menu__list li:nth-child(2)::after,
+.menu__list li:nth-child(4)::after,
+.menu__list li:nth-child(5)::after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    display: block;
+    transform-origin: 66% 66%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: .15s ease-in-out;
+    width: 8px;
+    height: 8px;
+}
+.menu__list li:hover::after{
+    border-color: #ff7d00;
+}
+ul.sub-menu{
+    display: none;
+    width: 16.5rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #28374d;
+}
+.sub-menu li a{
+    color: #28374d;
+}
+.sub-menu li{
+    margin-bottom: 5px;
+}
+.menu__list li:hover ul.sub-menu{
+    display: block;
+}
+.menu__list .sub-menu li::after{
+    display: none;
+}
+.header-box__phone {
+    margin-left: 35px;
+    position: relative;
+    font-size: 21px;
+    color: #fff;
+}
+.header-box__phone::before{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    left: -35px;
+    top: 0;
+    background: url('../images/home/phone-header.svg') no-repeat;
+}
+
+.header-box__sity select{
+    padding: 0px 10px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    appearance: none;
+    background: url('../images/home/arrow-header.svg') no-repeat;  
+    background-position:  right 70px center;
+    cursor: pointer;
+}
+.header-box__sity select option{
+     color: #28374d;
+     padding-right: 20px;
+}
