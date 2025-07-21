@@ -1,0 +1,114 @@
+.slider-bottom {
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #f9f9f9;
+}
+.slider-bottom__item {
+    width: calc(100% / 4);
+    height: 80px;
+    line-height: 80px;
+}
+.slider-bottom__item:first-child{
+    position: relative;
+    background: #ff7d00;
+    color: #fff;
+    border-bottom-left-radius: 20px;
+}
+.slider-bottom__item:first-child::before{
+    position: absolute;
+    content: '';
+    width: 0;
+	height: 0;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 25px solid #ff7d00;
+    z-index: 3;
+}
+.slider-bottom__item-text {
+    text-align: center;
+}
+
+
+
+
+// newshome
+.newshome{
+    padding: 80px 0;
+    background: url('../images/home/Pattern.svg') no-repeat;
+}
+.container {
+}
+.newshome__title {
+    
+}
+.title {
+}
+.newshome-block {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 55px;
+}
+.newshome-block__item {
+    padding-bottom: 20px;
+    width: calc(100% / 4 - 25px);
+    background: #f9f9f9;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.newshome-block__item-img img{
+    margin-bottom: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+.newshome-block__item-title {
+    padding-left: 15px;
+    font-size: 22px;
+    display: block;
+    margin-bottom: 20px;
+    font-family: 'BebasNeue-reg';
+    font-weight: 400;
+}
+.newshome-block__item-text {
+    padding-right: 10px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #090909;
+}
+.newshome-block__bottom {
+    padding-right: 10px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.newshome-block__bottom-date,
+.newshome-block__bottom-view {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #a7a7a7;
+}
+.newshome-block__bottom-view {
+    position: relative;
+}
+.newshome-block__bottom-view::before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: -25px;
+    background: url('../images/home/news-views.svg') no-repeat;
+}
+.newshome__btn {
+    width: 310px;
+    margin: 0 auto;
+}
+.btn {
+}

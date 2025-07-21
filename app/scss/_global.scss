@@ -36,3 +36,25 @@ button,
 button:hover{
 	transition: all .3s ease-in;
 }
+.title{
+	margin-bottom: 50px;
+	font-family: 'BebasNeue-reg';
+    font-weight: 400;
+	font-size: 60px;
+	text-align: center;
+}
+.btn{
+	display: block;
+	height: 65px;
+	max-width: 100%;
+	background: #28374d;
+	border-radius: 10px;
+	line-height: 65px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.btn:hover{
+	background: #ff7d00;
+}
