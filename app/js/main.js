@@ -4,4 +4,11 @@ $(function () {
         slidesToScroll: 1,
        
       });
+
+
+    $(".daughters-slider").slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+       
+      });
 })
