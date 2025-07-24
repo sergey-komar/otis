@@ -1,0 +1,44 @@
+.story {
+    padding-bottom: 110px;
+    background-color: #28374d;
+    background-image: url('../images/home/services-patern.svg');
+    color: #fff;
+}
+.story-block {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+.story-block__item {
+    height: auto;
+    width: calc(100% / 3 - 80px);
+}
+.story-block__item-year {
+    font-family: 'BebasNeue-reg';
+    font-weight: 400;
+	font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.story-block__item-img {
+    margin: 0 auto 30px auto;
+    min-width: 130px;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7d00;
+    border-radius: 50%;
+}
+.story-block__item-text {
+    height: 58%;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}

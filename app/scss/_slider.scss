@@ -180,3 +180,225 @@
     right: 20px;
 }
 
+
+
+//safety
+.safety {
+    padding-bottom: 110px;
+    background-image: url('../images/home/services-patern.svg');
+}
+.safety__subtitle {
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-family: 'BebasNeue-reg';
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: #aeaeae;
+}
+.safety__title {
+    max-width: 785px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.safety-slider__item {
+    width: 355px;
+    padding: 50px 25px;
+    border-radius: 30px;
+    background: #28374d;
+}
+.safety-slider__top {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.safety-slider__top-title {
+    font-family: 'BebasNeue-reg';
+    font-weight: 400;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.35);
+}
+.safety-slider__top-img {
+    width: 150px;
+    height: 210px;
+    object-fit: cover;
+}
+.safety-slider__item-text {
+    font-size: 20px;
+    color: #fff;
+}
+.safety-slider .slick-track{
+    display: flex;
+}
+.safety-slider .slick-track .slick-slide{
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.safety-slider .slick-slide > div,
+.safety-slider__wrapper,
+.safety-slider__item{
+    height: 100%;
+}
+.safety-slider .slick-prev,
+.safety-slider .slick-next{
+    padding: 0;
+    font-size: 0;
+    border: none;
+    width: 20px;
+    height: 35px;
+    position: absolute;
+    top: 45%;
+    z-index: 2;
+}
+.safety-slider .slick-prev{
+    background: url('../images/home/daughters-left-slider.svg') no-repeat center;
+    left: 0px;
+}
+.safety-slider .slick-next{
+    background: url('../images/home/daughters-right-slider.svg') no-repeat center;
+    right: 0px;
+}
+
+
+//updates
+.updates {
+    padding: 110px 0;
+    background-color: #f9f9f9;
+    background-image: url('../images/home/services-patern.svg');
+}
+.updates__subtitle {
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-family: 'BebasNeue-reg';
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: #aeaeae;
+}
+.updates__title {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.updates-slider__item {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    border-radius: 10px;
+    background: #fff;
+}
+.updates-slider__item-img img{
+    margin-bottom: 30px;
+    width: 300px;
+    height: 175px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.updates-slider__item-text {
+    margin-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 22px;
+    font-family: 'BebasNeue-reg';
+    font-weight: 400;
+}
+.updates-slider__bottom {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.updates-slider__bottom-date {
+    font-family: 'BebasNeue-reg';
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #a7a7a7;
+}
+.updates-slider .slick-track{
+    display: flex;
+}
+.updates-slider .slick-track .slick-slide{
+    	display: flex;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+}
+.updates-slider .slick-slide > div,
+.updates-slider__wrapper,
+.updates-slider__item{
+    height: 100%;
+}
+.updates-slider .slick-prev,
+.updates-slider .slick-next{
+    padding: 0;
+    font-size: 0;
+    border: none;
+    width: 20px;
+    height: 35px;
+    position: absolute;
+    top: 45%;
+    z-index: 2;
+}
+.updates-slider .slick-prev{
+    background: url('../images/home/daughters-left-slider.svg') no-repeat center;
+    left: -20px;
+}
+.updates-slider .slick-next{
+    background: url('../images/home/daughters-right-slider.svg') no-repeat center;
+    right: -20px;
+}
+
+
+
+//story-slider
+.story__subtitle {
+    padding-top: 110px;
+    margin-bottom: 65px;
+	font-family: 'BebasNeue-reg';
+    font-weight: 400;
+	font-size: 60px;
+	text-align: center;
+	line-height: 1.2;
+}
+.story-slider__item {
+    width: 400px;
+     margin: 0 auto;
+}
+.story-slider__item-img{
+    border-radius: 30px;
+    width: 400px;
+    height: 302px;
+    object-fit: cover;
+}
+.story-slider .slick-prev,
+.story-slider .slick-next{
+    padding: 0;
+    font-size: 0;
+    border: none;
+    width: 20px;
+    height: 35px;
+    position: absolute;
+    top: 45%;
+    z-index: 2;
+}
+.story-slider .slick-prev{
+    background: url('../images/home/white-left-slider.svg') no-repeat center;
+    left: -20px;
+}
+.story-slider .slick-next{
+    background: url('../images/home/white-right-slider.svg') no-repeat center;
+    right: -20px;
+}
+
+
+
+

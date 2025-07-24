@@ -1,0 +1,346 @@
+.aboutheading {
+    padding-bottom: 110px;
+    background-color: #28374d;
+    background-image: url('../images/home/Pattern.svg');
+}
+.aboutheading-block {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.aboutheading-block__content {
+    width: 50%;
+    padding-left: 90px;
+}
+.aboutheading-block__content-title {
+    max-width: 490px;
+    margin-bottom: 37px;
+    font-size: 65px;
+    font-family: 'BebasNeue-reg';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.aboutheading-block__content-btn {
+    margin-bottom: 55px;
+    width: 225px;
+}
+.aboutheading-block__content-text {
+    max-width: 445px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+.aboutheading-block__content-subtitle {
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+}
+.aboutheading-block__img {
+    width: 50%;
+}
+.aboutheading-block__img img{
+    width: 635px;
+    height: 682px;
+    object-fit: cover;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+//achievements
+.achievements {
+    padding: 110px 0;
+    background-image: url('../images/home/services-patern.svg');
+}
+.achievements-block {
+    padding: 55px 80px;
+    background: url('../images/about/achievements-bg.svg') no-repeat;
+    background-size: cover;
+}
+.achievements-block__title {
+    margin-bottom: 50px;
+    text-align: left;
+}
+.achievements-box {
+    margin-bottom: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.achievements-box__item {
+    padding: 15px 25px;
+    width: calc(100% / 4 - 20px);
+    background: #28374d;
+    border-radius: 20px;
+}
+.achievements-box__item-top {
+    margin-bottom: 5px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.achievements-box__item-top p{
+    font-size: 50px;
+    font-weight: 700;
+    color: #ff7d00;
+}
+.achievements-box__item-img{
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+}
+.achievements-box__item-text {
+   font-size: 20px;
+   text-align: center;
+   color: #fff;
+}
+.achievements-block__subtitle {
+    margin-bottom: 50px;
+    text-align: left;
+    font-family: 'BebasNeue-reg';
+    font-weight: 400;
+	font-size: 60px;
+}
+.achievements-block__subtitle span{
+    color: #ff7d00;
+}
+.achievements-reward {
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+}
+.achievements-reward__text {
+    max-width: 270px;
+    font-size: 25px;
+}
+.achievements-reward__img {
+    display: flex;
+    gap: 20px;
+}
+.achievements-reward__img img{
+    width: 145px;
+    height: 192px;
+    object-fit: cover;
+}
+
+
+
+//directions
+.directions {
+    padding: 110px 0;
+    background-color: #f9f9f9;
+    background-image: url('../images/home/services-patern.svg');
+}
+.directions-block {
+    display: flex;
+    gap: 75px;
+    justify-content: space-between;
+}
+.directions-block__item {
+    width: calc(100% / 2 - 75px);
+    padding: 50px;
+    border-radius: 30px;
+    background: #28374d;
+}
+.directions-block__item-number {
+    font-family: 'BebasNeue-reg';
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.35);
+}
+.directions-block__item-img img{
+    margin: 0 0 50px auto;
+    width: 368px;
+    height: 247px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.directions-block__item-text {
+    font-size: 25px;
+    color: #fff;
+}
+
+
+
+//activity
+.activity {
+    padding: 110px 0;
+    background-image: url('../images/home/services-patern.svg');
+}
+.activity-box {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+.activity-box__item {
+    min-width: 75px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7d00;
+    border-radius: 50%;
+}
+.activity__text {
+    max-width: 890px;
+    margin: 0 auto 55px auto;
+    font-size: 35px;
+    line-height: 1.2;
+    text-align: center;
+}
+.activity-block {
+    display: flex;
+    gap: 55px;
+}
+.activity-block__content {
+    width: 47%;
+}
+.activity-block__item {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.activity-block__item-img {
+    min-width: 75px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #28374d;
+    border-radius: 50%;
+}
+.activity-block__item-text {
+    font-size: 24px;
+}
+.activity-block__img {
+     width: 53%;
+}
+.activity-block__img img{
+    width: 100%;
+}
+
+//path
+.path {
+    padding: 110px 0;
+    background-image: url('../images/home/services-patern.svg');
+    background-color: #28374d;
+    color: #fff;
+}
+.path__title{
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.path-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.path-block__item {
+    margin-bottom: 100px;
+    display: flex;
+    gap: 44px;
+    align-items: center;
+    justify-content: space-between;
+}
+.path-block__item-year {
+    width: 37%;
+    font-family: 'BebasNeue-reg';
+    font-weight: 400;
+	font-size: 60px;
+    text-transform: uppercase;
+    text-align: right;
+}
+.path-block__item-img {
+    position: relative;
+    min-width: 130px;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7d00;
+    border-radius: 50%;
+}
+.path-block__item-img::before{
+    position: absolute;
+    content: '';
+    width: 3px;
+    height: 145px;
+    top: 130px;
+    background-color: #fff;
+}
+.path-block__item:last-child .path-block__item-img::before{
+    display: none;
+}
+.path-block__item-text {
+    width: 37%;
+    font-size: 22px;
+}
+.path__btn {
+    width: 435px;
+    margin: 0 auto;
+}
+.path__btn:hover{
+    background-color: #fff;
+    color: #28374d;
+}
+
+
+//why
+.why {
+    padding: 110px 0;
+    background-color: #f9f9f9;
+    background-image: url('../images/home/services-patern.svg');
+}
+.why__title {
+    max-width: 1005px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.why__text {
+    max-width: 765px;
+    margin: 0 auto 55px auto;
+    font-size: 22px;
+    text-align: center;
+}
+.why-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.why-block__item {
+    padding-bottom: 40px;
+    width: calc(100% / 5 - 20px);
+    background: #fff;
+    border-radius: 10px;
+}
+.why-block__item-img img{
+    margin-bottom: 30px;
+    width: 250px;
+    height: 175px;
+    border-radius: 10px;
+}
+.why-block__item-text {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+
+
+

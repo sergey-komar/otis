@@ -11,4 +11,25 @@ $(function () {
         slidesToScroll: 1,
        
       });
+
+
+    $(".safety-slider").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+       
+      });
+
+
+    $(".updates-slider").slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+       
+      });
+
+
+    $(".story-slider").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+       
+      });
 })
