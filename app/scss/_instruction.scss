@@ -1,0 +1,104 @@
+.imstuction{
+    padding-bottom: 110px;
+    background-color: #f9f9f9;
+    background-image: url('../images/home/services-patern.svg');
+}
+.imstuction .breadcrumb{
+     background-color: #f9f9f9;
+}
+.imstuction .breadcrumb__list li::before{
+    background-color: #28374d;
+}
+.imstuction .breadcrumb__list li a{
+    color: #28374d;
+}
+.imstuction .breadcrumb__list li:last-child a{
+    color: #ff7d00;
+}
+.imstuction-block {
+    margin-bottom: 55px;
+    padding: 40px;
+    background-color: #28374d;
+    border-radius: 30px;
+    color: #fff;
+}
+.imstuction-block__img {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    min-width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #ff7d00;
+}
+.imstuction-block__info {
+    display: flex;
+    gap: 40px;
+}
+.imstuction-block__content {
+    width: 55%;
+}
+.imstuction-block__content-title {
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.imstuction-block__content-text {
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size: 25px;
+    background: #ff7d00;
+}
+.imstuction-block__info-img {
+    width: 45%;
+}
+.imstuction-block__info-img img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.imstuction-wrapper {
+}
+.imstuction-box {
+    padding: 40px;
+    margin-bottom: 25px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.imstuction-box__title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.imstuction-box__item {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.imstuction-box__item:last-child{
+    margin-bottom: 0;
+}
+.imstuction-box__item-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    min-width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #ff7d00;
+}
+.imstuction-box__item-title {
+    font-size: 22px;
+    text-decoration: underline;
+    transition: all .3s ease-in;
+}
+.imstuction-box__item-title:hover{
+    color: #ff7d00;
+    transition: all .3s ease-in;
+}

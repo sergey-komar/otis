@@ -1,0 +1,70 @@
+.system {
+    background-color: #28374d;
+    background-image: url('../images/home/services-patern.svg');
+    padding-bottom: 110px;
+}
+.system__title {
+    color: #fff;
+}
+.questions-accardion__inner {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.questions-accardion__inner-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'BebasNeue-reg';
+    font-weight: 400;
+    line-height: 1.2;
+}
+.questions-accardion__content-img {
+    margin: 40px 0 40px 0;
+    width: 100%;
+    border-radius: 30px;
+}
+.questions-accardion__content-text {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 20px;
+}
+.questions-accardion__content-text p{
+    width: 50%;
+    font-size: 22px;
+}
+.questions-bottom {
+    display: flex;
+    gap: 20px;
+}
+.questions-bottom__info {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+}
+.questions-bottom__info-phone img{
+    min-width: 85px;
+}
+.questions-bottom__info-text {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'BebasNeue-reg';
+    font-weight: 400;
+}
+.questions-bottom__contact {
+    width: 50%;
+}
+.questions-bottom__contact-phone {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 24px;
+    text-align: center;
+    background: #28374d;
+    color: #fff;
+}
+.questions-bottom__contact-text {
+    font-size: 22px;
+}

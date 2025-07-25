@@ -1,0 +1,141 @@
+.price {
+    padding-bottom: 110px;
+    background-color: #f9f9f9;
+    background-image: url('../images/home/services-patern.svg');
+}
+.price .breadcrumb{
+     background-color: #f9f9f9;
+}
+.price .breadcrumb__list li::before{
+    background-color: #28374d;
+}
+.price .breadcrumb__list li a{
+    color: #28374d;
+}
+.price .breadcrumb__list li:last-child a{
+    color: #ff7d00;
+}
+.price-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+.price-block__item {
+    padding: 50px;
+    width: 50%;
+    border-radius: 30px;
+    background: #28374d;
+}
+.price-block__item-title {
+    margin-bottom: 55px;
+    font-family: 'BebasNeue-reg';
+    font-weight: 400;
+	font-size: 60px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.35);
+}
+.price-block__item:last-child .price-block__item-title{
+    margin-bottom: 20px;
+}
+.price-block__item-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    height: 85px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.price-block__item-img {
+    margin-bottom: 55px;
+    display: flex;
+    gap: 10px;
+}
+.price-block__item-btn {
+    width: 225px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 22px;
+}
+.price-block__item-btn:hover{
+    background-color: #fff;
+    color: #28374d;
+}
+.price-block__item-quar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 140px;
+    height: 140px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.questions {
+    padding-bottom: 110px;
+     background-color: #f9f9f9;
+}
+.questions__wrapper {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 20px 40px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.questions-accardion__btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.questions-accardion__circle img{
+     transition: all .3s ease-in;
+}
+.questions-accardion__btn.active-btn .questions-accardion__circle img{
+    transform: rotate(180deg);
+    transition: all .3s ease-in;
+}
+.questions-accardion__title {
+    font-family: 'BebasNeue-reg';
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.questions-accardion__circle {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #28374D;
+    cursor: pointer;
+}
+.questions-accardion__content {
+    display: none;
+}
+.price-box__item-title,
+.price-box__subtitle {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.price-box__subtitle{
+    padding-top: 30px;
+}
+.price-offices {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.price-offices__item-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 22px;
+}
