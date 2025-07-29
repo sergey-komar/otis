@@ -16,6 +16,8 @@
     border-bottom-right-radius: 10px;
 }
 .newshome-block__item-img img{
+    width: 295px;
+    height: 170px;
     margin-bottom: 30px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -83,14 +85,14 @@
     margin-bottom: 75px;
     display: flex;
     flex-wrap: wrap;
-    gap: 75px;
+    gap: 35px;
     justify-content: space-between;
 }
 .serviceshome-block__item {
     padding-bottom: 50px;
-    width: calc(100% / 2 - 75px);
+    width: 48%;
     background: url('../images/home/home-services.svg') no-repeat;
-    background-size: contain;
+    background-size: cover;
     border-radius: 20px;
 }
 .serviceshome-block__item-number {

@@ -2,6 +2,16 @@ $(function () {
     $(".slider-header").slick({
         slidesToShow: 1,
         slidesToScroll: 1,
+         responsive: [
+            {
+              breakpoint: 550,
+              settings: {
+                arrows: false,
+                dots: true
+              }
+            },
+           
+          ]
        
       });
 
@@ -9,6 +19,15 @@ $(function () {
     $(".daughters-slider").slick({
         slidesToShow: 2,
         slidesToScroll: 1,
+         responsive: [
+            {
+              breakpoint: 968,
+              settings: {
+               slidesToShow: 1,
+              }
+            },
+           
+          ]
        
       });
 
@@ -38,4 +57,16 @@ $(function () {
           $(this).next().slideToggle(500); 
           $(this).toggleClass("active-btn");
      });
+})
+
+
+window.addEventListener('DOMContentLoaded', () => {
+  const menu = document.querySelector(".menu");
+  const mobile = document.querySelector(".nav-icon");
+
+    mobile.addEventListener("click", function () {
+      this.classList.toggle("nav-icon--active");
+      menu.classList.toggle("nav--active");
+      document.body.classList.toggle('overflow')
+    });
 })

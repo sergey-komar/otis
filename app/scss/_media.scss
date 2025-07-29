@@ -1,0 +1,206 @@
+@media(max-width: 1250px){
+    .footer-top{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+@media(max-width: 968px){
+    .newshome-block{
+        flex-wrap: wrap;
+    }
+    .slider-header__item{
+        flex-direction: column;
+    }
+    .serviceshome-block__item{
+        width: 100%;
+    }
+    .slider-header__left-title{
+        font-size: 50px;
+    }
+    .slider-header__left{
+        border-top-right-radius: 30px;
+        width: 100%;
+    }
+    .slider-header__right{
+        display: none;
+    }
+    .slider-header .slick-next {
+        background: url('../images/home/arrow-right-slidermobile.svg') no-repeat center;
+    }
+    .slider-header__left-btn{
+        height: 70px;
+        line-height: 70px;
+    }
+    .newshome-block__item{
+        width: calc(100% / 2 - 25px);
+    }
+    .newshome-block__item-img img{
+        width: 100%;
+        height: auto;
+    }
+    .serviceshome-block__item-img img{
+        margin-left: 55px;
+    }
+}
+
+
+@media(max-width: 768px){
+    .newshome-block__item{
+        width: 100%;
+    }
+    .abouthome-block,
+    .footer-bottom,
+    .footer-top__list{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+@media(max-width: 550px){
+     .title{
+        margin-bottom: 20px;
+        font-size: 27px;
+    }
+    .newshome,
+    .serviceshome,
+    .abouthome,
+    .daughters,
+    .footer{
+        padding: 40px 0;
+    }
+     .slider{
+        padding-bottom: 40px;
+    }
+    .btn,
+    .abouthome-block__content__btn{
+        height: 55px;
+        line-height: 55px;
+        font-size: 18px;
+    }
+    .serviceshome-block__item-title,
+    .abouthome-block__content-title,
+    .daughters-slider__item-title{
+        font-size: 22px;
+    }
+    .newshome-block,
+    .serviceshome-block,
+    .abouthome-block__content-text{
+        margin-bottom: 30px;
+    }
+    .daughters-slider__item-phone{
+        font-size: 18px;
+    }
+    .newshome-block__bottom-date, 
+    .newshome-block__bottom-view,
+    .abouthome-block__content-text p{
+        font-size: 16px;
+    }
+    .footer-top{
+        gap: 20px;
+    }
+    .slider-header__left{
+        padding: 25px;
+    }
+    .slider-header__left-title{
+        font-size: 27px;
+    }
+    .slider-header__left-subtitle{
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .slider-header__left-text{
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+    .slider-header__left-btn{
+        margin-bottom: 20px;
+        width: 100%;
+        height: 55px;
+        line-height: 55px;
+        font-size: 18px;
+    }
+    .slider-header .slick-prev{
+        left: 0;
+    }
+    .slider-header .slick-next{
+        right: 0;
+    }
+    .slider-header .slick-dots{
+        transform: translateY(-40px);
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    .slider-header .slick-dots li button{
+        padding: 0;
+        border: none;
+        font-size: 0;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #28374d;
+        z-index: 5;
+    }
+    .slider-header .slick-dots li.slick-active button{
+        background-color: #ff7d00;
+    }
+    .slider-bottom{
+        flex-wrap: wrap;
+    }
+    .slider-bottom__item{
+        width: 100%;
+        height: 55px;
+        line-height: 55px;
+    }
+    .slider-bottom__item:first-child{
+        border-bottom-left-radius: 0;
+    }
+    .newshome-block__item-img img{
+        margin-bottom: 20px;
+    }
+    .serviceshome-block__item-img img{
+        margin: 0 auto 20px auto;
+        border-radius: 30px;
+    }
+    .serviceshome-block__item-number{
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .serviceshome-block__item{
+        padding: 20px;
+    }
+    .serviceshome-block__item-title,
+    .serviceshome-block__item-text,
+    .serviceshome-block__item-number{
+        padding-left: 0;
+    }
+    .daughters-slider__item{
+        width: 290px;
+        padding: 40px;
+        background-size: cover;
+    }
+    .daughters-slider__item-img{
+        margin-top: 35px;
+        width: 100%;
+        height: 70%;
+    }
+    .daughters-slider .slick-next{
+        right: 10px;
+    }
+    .daughters-slider .slick-prev{
+        left: 10px;
+    }
+    .footer-top__phone, .footer-top__email{
+        margin-bottom: 5px;
+        font-size: 16px;
+        width: 100%;
+        margin-left: 40px;
+    }
+    .footer-top__phone::before, .footer-top__email::before{
+        top: -5px;
+    }
+    .footer-top__logo{
+        width: 170px;
+    }
+}
