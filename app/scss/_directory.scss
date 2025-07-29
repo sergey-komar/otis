@@ -1,0 +1,79 @@
+.directory{
+    padding-bottom: 110px;
+    background-color: #28374d;
+    background-image: url('../images/home/services-patern.svg');
+}
+.directory__img {
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+.directory__text {
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+.directory-block {
+    padding: 50px;
+    background: #ededed;
+    border-radius: 30px;
+}
+.directory-block__item{
+    display: flex;
+    gap: 50px;
+}
+.directory-block__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    min-width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #ff7d00;
+}
+.directory-block__list {
+    margin-bottom: 50px;
+}
+.directory-block__list-item {
+    list-style: disc;
+    margin-bottom: 10px;
+}
+.directory__subtitle {
+    padding: 20px 30px;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 55px;
+    border-radius: 30px;
+    background: #28374d;
+}
+.directory-box {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.directory-box__item {
+    width: 50%;
+    display: flex;
+    gap: 40px;
+}
+.directory-box__item-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    min-width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #ff7d00;
+}
+
+.directory-box__list-item {
+    margin-bottom: 10px;
+    list-style: disc;
+}
+.directory__info {
+    font-size: 22px;
+}

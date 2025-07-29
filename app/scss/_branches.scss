@@ -1,0 +1,50 @@
+.branches {
+    padding-bottom: 110px;
+    background-color: #f9f9f9;
+    background-image: url('../images/home/services-patern.svg');
+}
+.branches .breadcrumb{
+     background-color: #f9f9f9;
+}
+.branches .breadcrumb__list li::before{
+    background-color: #28374d;
+}
+.branches .breadcrumb__list li a{
+    color: #28374d;
+}
+.branches .breadcrumb__list li:last-child a{
+    color: #ff7d00;
+}
+.branches__img img{
+    margin: 0 auto 50px auto;
+
+}
+.branches-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.branches-block__item {
+    width: calc(100% / 4 - 30px);
+}
+.branches-block__item-title {
+    margin-bottom: 15px;
+    font-family: 'BebasNeue-reg';
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.branches-block__item-address,
+.branches-block__item-contact {
+    margin-bottom: 20px;
+}
+.branches-block__item-address p,
+.branches-block__item-contact p,
+.branches-block__item-info p{
+    margin-bottom: 7px;
+}
+.branches-block__item-address p:first-child,
+.branches-block__item-contact p:first-child,
+.branches-block__item-info p:first-child{
+    font-weight: 500;
+}
