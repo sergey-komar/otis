@@ -3,16 +3,87 @@
         flex-wrap: wrap;
         gap: 50px;
     }
-}
-@media(max-width: 968px){
-    .newshome-block{
+    .story-block{
+        gap: 20px;
+        row-gap: 40px;
+    }
+    .story-block__item{
+        width: calc(100% / 3 - 20px);
+    }
+    .story-slider .slick-prev{
+        left: 0;
+    }
+    .story-slider .slick-next{
+        right: 0;
+    }
+    .vacancies-block__content,
+    .reviews-block__content{
         flex-wrap: wrap;
     }
-    .slider-header__item{
+    .partners-block{
+        gap: 20px;
+    }
+    .achievements-reward{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media(max-width: 968px){
+    .newshome-block,
+    .vacancies-block,
+    .questions-bottom,
+    .questions-accardion__content-text,
+    .questions-bottom__contact-phone,
+    .directory-box,
+    .documents-block,
+    .reviews-box,
+    .articles-block,
+    .howparthers-box,
+    .program-block__content,
+    .serviceheading-block,
+    .approach-block,
+    .cousin-block,
+    .tariffs-top,
+    .application-block,
+    .aboutheading-block,
+    .achievements-reward__img,
+    .achievements-box,
+    .activity-block,
+    .why-block{
+        flex-wrap: wrap;
+    }
+    .story-block__item,
+    .vacancies-block__item{
+        margin-bottom: 40px;
+        width: calc(100% / 2 - 20px);
+    }
+    .slider-header__item,
+    .vacancies-block__content{
         flex-direction: column;
     }
-    .serviceshome-block__item{
+    .serviceshome-block__item,
+    .questions-bottom__info,
+    .questions-bottom__contact,
+    .questions-accardion__content-text p,
+    .documents-block__content,
+    .documents-block__img,
+    .howparthers-box__info,
+    .howparthers-box__contact,
+    .serviceheading-block__content,
+    .serviceheading-block__img,
+    .cousin-block__content,
+    .cousin-block__img,
+    .application-block__left,
+    .application-block__right,
+    .aboutheading-block__content,
+    .aboutheading-block__img{
         width: 100%;
+    }
+    .aboutheading-block__img img{
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
     }
     .slider-header__left-title{
         font-size: 50px;
@@ -31,7 +102,9 @@
         height: 70px;
         line-height: 70px;
     }
-    .newshome-block__item{
+    .newshome-block__item,
+    .reviews-block__item,
+    .achievements-box__item{
         width: calc(100% / 2 - 25px);
     }
     .newshome-block__item-img img{
@@ -41,63 +114,469 @@
     .serviceshome-block__item-img img{
         margin-left: 55px;
     }
+    .branches-block__item,
+    .articles-block__item,
+    .news-block__item{
+        width: calc(100% / 3 - 30px);
+    }
+    .reviews-box__item {
+        width: calc(100% / 5 - 20px);
+    }
+    .program-block__content-text{
+        max-width: 100%;
+    }
+    .serviceheading-block__content-stock{
+        width: 10%;
+    }
+    .serviceheading-block{
+        gap: 20px;
+    }
+    .tariffs-top{
+        margin-bottom: 20px;
+    }
+    .application-block__right-free{
+        display: none;
+    }
+    .application-block{
+        justify-content: center;
+    }
+    .aboutheading-block,
+    .achievements-block{
+        padding: 20px;
+    }
+    .aboutheading-block__content{
+        margin-bottom: 20px;
+        padding-left: 0;
+    }
+    .directions-block{
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .directions-block__item{
+        width: 50%;
+    }
+    .why-block__item{
+        width: calc(100% / 4 - 20px);
+    }
 }
 
 
 @media(max-width: 768px){
-    .newshome-block__item{
+    .newshome-block__item,
+    .partners-block__item,
+    .imstuction-block__content,
+    .imstuction-block__info-img,
+    .directory-box__item,
+    .reviews-block__item,
+    .management-block__item,
+    .program-block__content-img,
+    .approach-block__item,
+    .directions-block__item,
+    .activity-block__content,
+    .activity-block__img,
+    .path-block__item-year,
+    .story-block__item,
+    .path-block__item-text{
         width: 100%;
     }
     .abouthome-block,
     .footer-bottom,
-    .footer-top__list{
+    .footer-top__list,
+    .imstuction-block__info{
         flex-direction: column;
         gap: 20px;
+    }
+    .consultation-form,
+    .path-block__item{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+    .pagedaughters{
+        padding-bottom: 40px;
+    }
+    .branches-block__item,
+    .articles-block__item,
+    .news-block__item,
+    .why-block__item{
+        width: calc(100% / 2 - 30px);
+    }
+    .reviews-box__item,
+    .clients-box__img {
+        width: calc(100% / 3 - 20px);
+    }
+    .activity-box,
+    .path-block__item{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .path-block__item-img::before{
+        display: none;
+    }
+    .path-block__item-year,
+    .path-block__item-text{
+        text-align: center;
     }
 }
 
 
 @media(max-width: 550px){
-     .title{
+     .title,
+     .story__subtitle,
+     .serviceheading-block__content-title,
+     .aboutheading-block__content-title{
         margin-bottom: 20px;
         font-size: 27px;
+        line-height: 1.3;
     }
     .newshome,
     .serviceshome,
     .abouthome,
     .daughters,
-    .footer{
+    .footer,
+    .consultation,
+    .approach,
+    .cousin,
+    .tariffs,
+    .application,
+    .branches,
+    .clients,
+    .achievements,
+    .directions,
+    .activity,
+    .path,
+    .why,
+    .updates{
         padding: 40px 0;
     }
-     .slider{
+    .slider,
+    .story,
+    .vacancies,
+    .branches-page,
+    .system,
+    .imstuction,
+    .directory,
+    .memo,
+    .questions-page,
+    .documents,
+    .reviews,
+    .articles,
+    .management,
+    .partners,
+    .howparthers,
+    .program,
+    .serviceheading,
+    .news,
+    .aboutheading,
+    .safety{
         padding-bottom: 40px;
     }
     .btn,
-    .abouthome-block__content__btn{
+    .abouthome-block__content__btn,
+    .serviceheading-block__content-btn,
+    .branches__btn,
+    .news__btn,
+    .aboutheading-block__content-btn,
+    .path__btn{
+        width: 100%;
         height: 55px;
         line-height: 55px;
         font-size: 18px;
     }
+    .story-block__item,
+    .consultation-form__input,
+    .consultation-form__btn,
+    .footer-top__menu,
+    .story-slider__item,
+    .story-slider__item-img,
+    .vacancies-block__item,
+    .vacancies-block__content-img,
+    .branches-block__item,
+    .articles-block__item,
+    .articles__btn,
+    .tariffs-box__item,
+    .news-block__item,
+    .achievements-box__item,
+    .why-block__item,
+    .safety-slider__item,
+    .updates-slider__item{
+        width: 100%;
+    }
+    .story-block__item-year,
+    .vacancies-block__item-number,
+    .partners-block__item-number,
+    .reviews-block__item-number,
+    .approach-block__top-number,
+    .achievements-box__item-top p,
+    .directions-block__item-number,
+    .path-block__item-year{
+        font-size: 30px;
+    }
     .serviceshome-block__item-title,
     .abouthome-block__content-title,
-    .daughters-slider__item-title{
+    .daughters-slider__item-title,
+    .vacancies-block__content-text,
+    .partners-block__item-title,
+    .branches-block__item-title,
+    .questions-accardion__inner-title,
+    .imstuction-box__title,
+    .memo-block__subtitle,
+    .reviews__subtitle,
+    .reviews-block__content-text,
+    .program-box__title,
+    .serviceheading-block__content-subtitle,
+    .safety__subtitle,
+    .updates__subtitle{
+        line-height: 1.3;
         font-size: 22px;
     }
-    .newshome-block,
-    .serviceshome-block,
-    .abouthome-block__content-text{
-        margin-bottom: 30px;
+
+    .documents-block__item-text,
+    .articles-block__item-title,
+    .management-block__item-title,
+    .howparthers-block__text,
+    .howparthers-box__info-text,
+    .program-block__title,
+    .program-box__content-title,
+    .approach-block__item-title,
+    .cousin-block__content-title,
+    .tariffs-top__text,
+    .tariffs-top__item-title,
+    .tariffs-block__title,
+    .application-block__left-text,
+    .clients__title,
+    .aboutheading-block__content-text,
+    .activity__text,
+    .why__text,
+    .safety-slider__top-title{
+        font-size: 20px;
+        line-height: 1.3;
     }
-    .daughters-slider__item-phone{
+    .daughters-slider__item-phone,
+    .consultation-form__btn,
+    .partners-block__item-phone,
+    .questions-bottom__contact-phone,
+    .questions-bottom__info-text,
+    .imstuction-block__content-title,
+    .imstuction-block__content-text,
+    .imstuction-box__item-title,
+    .directory__subtitle,
+    .directory__info,
+    .directory__text,
+    .memo-block__item-text,
+    .memo-block__text,
+    .memo-block__list-item,
+    .memo-block__elem-text,
+    .memo-box__item-text,
+    .memo-box__text,
+    .memo-box__elem-text,
+    .reviews__text,
+    .reviews-block__item-text,
+    .articles-block__bottom-date,
+    .management-block__item-text,
+    .howparthers-box__contact-title,
+    .howparthers-box__contact-item,
+    .program-block__content-text,
+    .program-box__content-text,
+    .approach-block__item-text,
+    .tariffs-top__item-text,
+    .tariffs-box__item-text,
+    .application-block__item-text,
+    .branches__text,
+    .clients__text,
+    .news__text,
+    .directions-block__item-text,
+    .activity-block__item-text,
+    .path-block__item-text,
+    .safety-slider__item-text{
         font-size: 18px;
     }
     .newshome-block__bottom-date, 
     .newshome-block__bottom-view,
-    .abouthome-block__content-text p{
+    .abouthome-block__content-text p,
+    .breadcrumb__list li a,
+    .questions-accardion__content-text p,
+    .questions-bottom__contact-text,
+    .reviews-box__item-text,
+    .reviews-block__item-job{
         font-size: 16px;
     }
-    .footer-top{
+    .newshome-block,
+    .serviceshome-block,
+    .abouthome-block__content-text,
+    .consultation__text,
+    .branches__img img,
+    .directory__text,
+    .directory-block__list,
+    .directory__subtitle,
+    .memo-block__list,
+    .reviews-block__content,
+    .articles-block,
+    .howparthers-block__text,
+    .serviceheading-block__content-subtitle,
+    .aboutheading-block__content-btn{
+        margin-bottom: 30px;
+    }
+    .vacancies-block__content,
+    .vacancies-block__item,
+    .partners-block__item-number,
+    .imstuction-block__img,
+    .imstuction-block,
+    .directory__img,
+    .directory-box,
+    .memo-box__item,
+    .memo-block,
+    .memo-box__text,
+    .memo-box__elem,
+    .documents-block,
+    .reviews-block__item-text,
+    .articles-block__item-title,
+    .management-block__item-title,
+    .program-block__title,
+    .program-block,
+    .program-box__title,
+    .program-box__item,
+    .approach-block__item-title,
+    .approach-block__top,
+    .cousin-block__content-title,
+    .cousin-block__item,
+    .tariffs-top__text,
+    .tariffs-top__item-img,
+    .application-block__left-text,
+    .branches__map img,
+    .clients__text,
+    .news__text,
+    .news-block__item-title,
+    .news-block__item-img img,
+    .news-block,
+    .achievements-box,
+    .directions-block__item-img img,
+    .directions-block__item-number,
+    .activity__text,
+    .path-block__item,
+    .why__text,
+    .why-block__item-img img,
+    .safety__subtitle,
+    .updates__subtitle,
+    .updates-slider__item-text{
+        margin-bottom: 20px;
+    }
+    .serviceshome-block__item,
+    .vacancies-block__item,
+    .partners-block__item,
+    .questions__wrapper,
+    .imstuction-block,
+    .imstuction-block__content-text,
+    .imstuction-box,
+    .directory-block,
+    .directory__subtitle,
+    .memo-block,
+    .memo-block__elem,
+    .memo-box,
+    .documents-block,
+    .management-block__item,
+    .howparthers-block,
+    .program-block,
+    .program-box,
+    .serviceheading-block__content,
+    .approach-block__item,
+    .tariffs-block__title,
+    .tariffs-box,
+    .clients-block,
+    .directions-block__item,
+    .why-block__item{
+        padding: 20px;
+    }
+    .footer-top,
+    .story-block,
+    .breadcrumb__list,
+    .branches-block,
+    .directory-box,
+    .questions-accardion__btn,
+    .documents-block,
+    .howparthers-box,
+    .program-block__content,
+    .program-box__item,
+    .approach-block,
+    .cousin-block__item,
+    .cousin-block,
+    .application-block__item,
+    .achievements-reward,
+    .activity-block__item,
+    .activity-block{
         gap: 20px;
+    }
+    .vacancies-block__content-img{
+        height: 100%;
+    }
+    .story-block__item-img,
+    .questions-bottom__info-phone img,
+    .imstuction-block__img,
+    .reviews-box__item-img,
+    .howparthers-block__img,
+    .tariffs-top__item-img,
+    .activity-box__item,
+    .path-block__item-img{
+        width: 55px;
+        min-width: 55px;
+        height: 55px;
+    }
+    .story-block__item-img img,
+    .imstuction-block__img img,
+    .howparthers-block__img img,
+    .tariffs-top__item-img img,
+    .activity-box__item img,
+    .path-block__item-img img{
+        width: 30px;
+    }
+    .imstuction-box__item-img,
+    .directory-block__img,
+    .directory-box__item-img,
+    .memo-block__item-img,
+    .memo-block__elem-img,
+    .memo-box__item-img,
+    .memo-box__elem-img,
+    .documents-block__item-img,
+    .howparthers-box__info-img,
+    .program-box__item-img,
+    .cousin-block__item-img,
+    .approach-block__top-img,
+    .application-block__item-img,
+    .achievements-box__item-img,
+    .activity-block__item-img{
+        width: 40px;
+        min-width: 40px;
+        height: 40px;
+    }
+    .directory-block__img img,
+    .directory-box__item-img img,
+    .memo-block__item-img img,
+    .memo-block__elem-img img,
+    .memo-box__elem-img img,
+    .documents-block__item-img img,
+    .reviews-box__item-img img,
+    .howparthers-box__info-img img,
+    .program-box__item-img img,
+    .cousin-block__item-img img,
+    .approach-block__top-img img,
+    .achievements-box__item-img img,
+    .activity-block__item-img img{
+        width: 25px;
+    }
+    .partners-block__item-title,
+    .partners-block__item-phone,
+    .achievements-block__title{
+        text-align: center;
+    }
+    .reviews-block__content-img,
+    .news-block__item-img img,
+    .achievements-reward__img img,
+    .directions-block__item-img img,
+    .why-block__item-img img,
+    .safety-slider__top-img,
+    .updates-slider__item-img img{
+        width: 100%;
+        height: auto;
     }
     .slider-header__left{
         padding: 25px;
@@ -167,9 +646,6 @@
         margin-bottom: 20px;
         font-size: 30px;
     }
-    .serviceshome-block__item{
-        padding: 20px;
-    }
     .serviceshome-block__item-title,
     .serviceshome-block__item-text,
     .serviceshome-block__item-number{
@@ -203,4 +679,145 @@
     .footer-top__logo{
         width: 170px;
     }
+    .story-block__item{
+        margin-bottom: 0;
+    }
+    .story__subtitle{
+        padding-top: 20px;
+    }
+    .story-slider__item-img{
+        height: 100%;
+    }
+    .breadcrumb{
+        padding: 20px 0;
+    }
+    .vacancies-block__item-number{
+        margin-bottom: 0;
+    }
+    .breadcrumb__list li::before{
+        height: 15px;
+        top: 5px;
+        left: -10px;
+    }
+    .partners-block__item-phone::before{
+        display: none;
+    }
+    .partners-block__item-phone{
+        margin-left: 0;
+    }
+    .partners-block__item-img{
+        margin: 0 auto 20px auto;
+    }
+    .partners-block__item-img{
+        width: 215px;
+        height: 215px;
+    }
+    .partners-block__item-img img{
+        width: 200px;
+        height: 200px;
+    }
+    .questions-accardion__content-img{
+        margin: 20px 0 20px 0;
+    }
+    .questions__wrapper{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .questions__wrapper:last-child,
+    .imstuction-box:last-child{
+        margin-bottom: 0;
+    }
+    .imstuction-box__item,
+    .memo-box__elem,
+    .cousin-block__item{
+        align-items: flex-start;
+    }
+    .directory-block__item,
+    .directory-box__item{
+        gap: 30px;
+    }
+    .memo-block__text,
+    .memo-block__subtitle{
+        padding-left: 0;
+    }
+    .memo-block__list{
+        margin-left: 20px;
+    }
+    .questions-accardion__title{
+        font-size: 27px;
+    }
+    .reviews-box__item {
+        width: calc(100% / 2 - 20px);
+    }
+    
+    .reviews-block__item-number{
+        margin-bottom: 10px;
+    }
+    .articles-block__item-img img,
+    .management-block__item-img img{
+        width: 100%;
+        height: auto;
+    }
+    .serviceheading-block__content-stock,
+    .application-block__center{
+        display: none;
+    }
+    .serviceheading-block__img img{
+        border-radius: 20px;
+    }
+    .tariffs-top__info{
+        margin-right: 0;
+    }
+    .tariffs-top{
+        justify-content: center;
+    }
+    .tariffs-block__title{
+        text-align: center;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .tariffs-block{
+        padding-bottom: 10px;
+    }
+    .tariffs-top__text{
+        text-align: center;
+    }
+    .application-block__item:first-child{
+        margin-top: 20px;
+    }
+    .application{
+        padding-bottom: 0;
+    }
+    .application-block__left-img{
+        width: 45%;
+    }
+    .clients-box__img{
+        width: calc(100% / 2 - 20px);
+    }
+    .achievements-block{
+        padding: 0 20px;
+        background: transparent;
+    }
+    .achievements-reward__text{
+        max-width: 100%;
+        font-size: 18px;
+    }
+    .path-block__item{
+        gap: 10px;
+    }
+    .safety-slider__top{
+        flex-wrap: wrap;
+    }
+    .safety-slider__top-img{
+        border-radius: 20px;
+    }
+    .safety-slider .slick-next,
+    .updates-slider .slick-next{
+        right: -15px;
+    }
+    .safety-slider .slick-prev,
+    .updates-slider .slick-prev{
+        left: -15px;
+    }
+    
 }

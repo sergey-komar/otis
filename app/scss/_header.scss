@@ -1,5 +1,11 @@
 .header {
     background: #28374d;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+.header.box-shadow{
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
 }
 .header-box {
     height: 110px;
