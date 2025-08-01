@@ -151,5 +151,42 @@ window.addEventListener('DOMContentLoaded', () => {
         up();
 
 
+        const contentBlocks = document.querySelectorAll('.content')
+        const selectBlock = document.querySelector('.choose')
+
+        hideBlocks(contentBlocks)
+        contentBlocks[0].classList.remove('visually-hidden')
+
+        selectBlock.addEventListener('change', function () {
+          const idNum = this.value.split('-')
+          hideBlocks(contentBlocks)
+          document.querySelector('#info-' + idNum[1]).classList.remove('visually-hidden')
+        })
+
+        function hideBlocks (blocks) {
+          for (let block of blocks) {
+            block.classList.add('visually-hidden')
+          }
+        }
+
+
+        const infoBlocks = document.querySelectorAll('.contacts-box')
+        const contactstBlock = document.querySelector('.contacts-select')
+
+        hideBlocksSelect(infoBlocks)
+        infoBlocks[0].classList.remove('visually-hidden')
+
+       contactstBlock.addEventListener('change', function () {
+          const idNum = this.value.split('-')
+          hideBlocks(infoBlocks)
+          document.querySelector('#contacts-' + idNum[1]).classList.remove('visually-hidden')
+        })
+
+        function hideBlocksSelect (blocks) {
+          for (let block of blocks) {
+            block.classList.add('visually-hidden')
+          }
+        }
+
 
 })

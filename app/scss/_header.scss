@@ -87,16 +87,29 @@ ul.sub-menu{
 }
 
 .header-box__sity select{
+    width: 110px;
     padding: 0px 10px;
     background-color: transparent;
     color: #fff;
     border: none;
-    appearance: none;
-    background: url('../images/home/arrow-header.svg') no-repeat;  
-    background-position:  right 70px center;
+    // appearance: none;
+    // background: url('../images/home/arrow-header.svg') no-repeat;  
+    // background-position:  right 50px center;
     cursor: pointer;
 }
 .header-box__sity select option{
      color: #28374d;
      padding-right: 20px;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
